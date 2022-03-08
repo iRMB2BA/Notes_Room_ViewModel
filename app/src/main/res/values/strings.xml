@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Room_SQL_ViewModel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="add">ADD</string>
+    <string name="desc">Desc</string>
+    <string name="back">BACK</string>
+    <string name="button">Button</string>
+    <string name="add_note">Add Note</string>
+</resources>
