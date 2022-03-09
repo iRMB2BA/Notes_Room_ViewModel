@@ -24,8 +24,9 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:contentDescription="@string/add"
-        android:src="@drawable/ic_baseline_add_box_24"
-        app:backgroundTint="#5B96D8"
+        android:src="@drawable/signed"
+        app:backgroundTint="#BCCFDC"
         app:layout_constraintBottom_toBottomOf="@+id/rv_notes"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/purple_200" />
 </androidx.constraintlayout.widget.ConstraintLayout>

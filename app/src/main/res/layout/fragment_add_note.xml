@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:autofillHints=""
-        android:hint="@string/add"
+        android:hint="@string/title"
         android:inputType="text"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,14 +39,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/desc"
+        android:hint="Description"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/et_add_title"
         app:layout_constraintStart_toStartOf="@+id/et_add_title"
-        app:layout_constraintTop_toBottomOf="@+id/et_add_title"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/et_add_title" />
 
     <Button
         android:id="@+id/btn_back"
